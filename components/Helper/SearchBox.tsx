@@ -19,8 +19,8 @@ const SearchBox = () => {
             <div className="flex items-center space-x-6">
                 <FaCalendarWeek className="h-6 w-6 text-blue-600"/>
                 <div>
-                    <p className="text-lg font-medium mb-[0.2rem]">Start Date</p>
-                    <input type="date" className="outline-none border-none placeholder:text-gray-800 placeholder:text-[0.9rem]" />
+                    <p className="text-lg font-medium mb-[0.2rem]">Depart</p>
+                    <input type="date" className="outline-none border-none placeholder:text-gray-800 placeholder:text-[0.9rem] cursor-pointer" />
                 </div>
             </div>
 
@@ -28,8 +28,8 @@ const SearchBox = () => {
             <div className="flex items-center space-x-6">
                 <FaCalendarWeek className="h-6 w-6 text-blue-600"/>
                 <div>
-                    <p className="text-lg font-medium mb-[0.2rem]">End Date</p>
-                    <input type="date" className="outline-none border-none placeholder:text-gray-800 placeholder:text-[0.9rem]" />
+                    <p className="text-lg font-medium mb-[0.2rem]">Return</p>
+                    <input type="date" className="outline-none border-none placeholder:text-gray-800 placeholder:text-[0.9rem] cursor-pointer" />
                 </div>
             </div>
 

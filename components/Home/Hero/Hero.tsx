@@ -35,7 +35,7 @@ const Hero = () => {
                 <Link href="#"
                     className="rounded px-14 md:px-28 -mt-4 py-2.5 overflow-hidden group 
                                 bg-rose-600 relative hover:bg-gradient-to-r 
-                                hover:from-red-500 hover:to-red-400 text-white 
+                                hover:from-rose-500 hover:to-rose-400 text-white 
                                 hover:ring-2 hover:ring-offset-2 hover:ring-red-400 
                                 transition-all ease-out duration-300"
                     >
