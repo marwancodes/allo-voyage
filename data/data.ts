@@ -194,3 +194,24 @@ export const destinationData = [
       image: "/images/u2.jpg",
     },
   ];
+
+  export const whyChooseData = [
+    {
+      id: 1,
+      image: "/images/c1.svg",
+      title: "Best Price Guarantee",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing1",
+    },
+    {
+      id: 2,
+      image: "/images/c2.svg",
+      title: "Easy & Quick Booking",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing2",
+    },
+    {
+      id: 3,
+      image: "/images/c3.svg",
+      title: "Customer Support 24/7",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing3",
+    },
+  ];

@@ -1,6 +1,7 @@
 import Destination from "./Destination/Destination";
 import Hero from "./Hero/Hero";
 import Hotel from "./Hotel/Hotel";
+import WhyChoose from "./WhyChoose/WhyChoose";
 
 
 
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Destination />
       <Hotel />
+      <WhyChoose />
     </div>
   )
 }
