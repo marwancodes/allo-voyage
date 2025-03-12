@@ -1,5 +1,6 @@
 import Destination from "./Destination/Destination";
 import Hero from "./Hero/Hero";
+import Hotel from "./Hotel/Hotel";
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
     <div className="overflow-hidden">
       <Hero />
       <Destination />
+      <Hotel />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import SectionHeading from "@/components/Helper/SectionHeading";
+import DestinationSlider from "./DestinationSlider";
 
 
 const Destination = () => {
@@ -10,6 +11,12 @@ const Destination = () => {
     <div className="py-20">
         {/* Heading Section */}
         <SectionHeading heading={heading} subHeading={subHeading} />
+
+        {/* Destination Content */}
+        <div className="mt-14 w-[80%] mx-auto">
+            {/* Slider */}
+            <DestinationSlider />
+        </div>
 
     </div>
   )
