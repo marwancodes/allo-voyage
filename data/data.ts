@@ -215,3 +215,30 @@ export const destinationData = [
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing3",
     },
   ];
+
+  export const newsData = [
+    {
+      id: 1,
+      image: "/images/n1.jpg",
+      title: "Top 5 place to visit in the UK",
+      date: "12 March 2025"
+    },
+    {
+      id: 2,
+      image: "/images/n2.jpg",
+      title: "Top 5 place to visit in Spain",
+      date: "01 February 2025"
+    },
+    {
+      id: 3,
+      image: "/images/n3.jpg",
+      title: "Top 5 place to visit in Turkey",
+      date: "25 December 2024"
+    },
+    {
+      id: 4,
+      image: "/images/n4.jpg",
+      title: "Top 5 place to visit in France",
+      date: "10 November 2024"
+    },
+  ]
