@@ -1,5 +1,6 @@
 import SearchBox from "@/components/Helper/SearchBox";
 import Link from "next/link";
+import { FaSearch } from "react-icons/fa";
 
 
 
@@ -44,7 +45,9 @@ const Hero = () => {
                                 transform translate-x-12 bg-white opacity-10 rotate-12 
                                 group-hover:-translate-x-40 ease"
                     ></span>
-                    <span className="relative font-bold">Search</span>
+                    <span className="relative font-bold">
+                        <div className="flex flex-row items-center justify-center gap-2">Search <FaSearch /></div>
+                    </span>
                 </Link>
             </div>
         </div>
