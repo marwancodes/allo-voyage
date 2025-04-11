@@ -37,7 +37,7 @@ const SearchBox = () => {
             <div className="flex items-center space-x-6">
                 <FaUserGroup className="h-6 w-6 text-blue-600"/>
                 <div>
-                    <p className="text-lg font-medium mb-[0.2rem]">End Date</p>
+                    <p className="text-lg font-medium mb-[0.2rem]">Guest</p>
                     <p className="font-normal">1 Guest 1 Room</p>
                 </div>
             </div>
