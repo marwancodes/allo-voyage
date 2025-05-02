@@ -4,7 +4,7 @@ import { navLinks } from '@/constant/constant';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2';
-import { IoAirplaneSharp } from "react-icons/io5";
+import Image from 'next/image';
 
 type Props = {
   openNav: () => void;
@@ -35,9 +35,7 @@ const Navbar = ({openNav}: Props) => {
       <div className='flex justify-between items-center w-[90%] xl:w-[80%] mx-auto h-full'>
         {/* LOGO */}
         <div className='flex items-center space-x-2'>
-          <div className='w-10 h-10 bg-rose-500 rounded-full flex items-center justify-center flex-col'>
-            <IoAirplaneSharp className='text-white w-6 h-6 -rotate-45 ' />
-          </div>
+          <Image src="/images/AlloVoyageLogo.png" alt="logo" width={50} height={50} />
           <h1 className='text-white font-bold text-xl md:text-2xl uppercase'>
             Allo Voyage
           </h1>

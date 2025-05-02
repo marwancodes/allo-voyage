@@ -13,7 +13,7 @@ const Newsletter = () => {
         {/* Subscription Input & Button */}
         <div className="w-full">
             <input type="text" placeholder="Email" className="bg-white px-6 py-3.5 mt-8 w-[95%] sm:w-[80%] md:w-[60%] lg:w-[40%] block mx-auto rounded-lg outline-none"/>
-            <button className="bg-blue-900 text-white hover:bg-blue-950 px-6 py-3.5 mt-8 w-[95%] sm:w-[80%] md:w-[60%] lg:w-[40%] block mx-auto rounded-lg outline-none cursor-pointer transition-all duration-200">
+            <button className="bg-teal-600 text-white hover:bg-teal-700 px-6 py-3.5 mt-8 w-[95%] sm:w-[80%] md:w-[60%] lg:w-[40%] block mx-auto rounded-lg outline-none cursor-pointer transition-all duration-200">
                 <div className="flex flex-row items-center justify-center gap-2">
                     Subsription <FiSend />
                 </div>
