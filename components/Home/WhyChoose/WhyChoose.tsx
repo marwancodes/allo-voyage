@@ -16,8 +16,13 @@ const WhyChoose = () => {
         {/* Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center mt-12 w-[80%] mx-auto ">
             {/* Why Choose Us Card */}
-            {whyChooseData.map((data) => (
-                <div key={data.id}>
+            {whyChooseData.map((data, i) => (
+                <div 
+                    key={data.id}
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay={`${i * 100}`}
+                    >
                     <WhyChooseCard whyChoose={data} />
                 </div>
             ))}

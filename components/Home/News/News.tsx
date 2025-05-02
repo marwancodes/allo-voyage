@@ -15,8 +15,13 @@ const News = () => {
         <SectionHeading heading={heading} subHeading={subHeading}/>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center gap-8 w-[80%] mx-auto mt-20">
-            {newsData.map((data) => (
-                <div key={data.id}>
+            {newsData.map((data, i) => (
+                <div 
+                    key={data.id}
+                    data-aos="fade-left"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay={`${i * 200}`}
+                >
                     <NewsCard news={data} />
                 </div>
             ))}

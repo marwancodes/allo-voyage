@@ -4,7 +4,9 @@ import { FaSearch } from "react-icons/fa";
 
 
 
+
 const Hero = () => {
+
   return (
     <div className="relative w-full h-[120vh] sm:h-[100vh]">
         {/* OverLay */}
@@ -22,7 +24,7 @@ const Hero = () => {
         {/* Content */}
         <div className="absolute z-[100] w-full h-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
             <div className="flex flex-col items-center justify-center w-full h-full ">
-                <div>
+                <div data-aos="fade-up">
                     <h1 className="text-white font-bold uppercase text-[45px] mb-4 md:mb-0  text-center md:text[35px] lg:text-[45] tracking-[0.3rem]">
                         Lets Enjoy The Nature
                     </h1>
